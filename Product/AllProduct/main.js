@@ -103,7 +103,7 @@ function AddInvoice()
 
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-        const response = await fetch('http://localhost:3000/invoice/yourinvoices', {
+        const response = await fetch('https://free-invoice.onrender.com/invoice/yourinvoices', {
             method: 'get',
             headers: {
                 'Content-Type': 'application/json',
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function downloadInvoice(invoiceId) {
     try {
-        const response = await fetch(`http://localhost:3000/invoice?invoiceid=${invoiceId}`, {
+        const response = await fetch(`https://free-invoice.onrender.com/invoice?invoiceid=${invoiceId}`, {
             method: 'get',
             headers: {
                 'Content-Type': 'application/json',
