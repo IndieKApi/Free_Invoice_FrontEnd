@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav id="nav" class="navbar">
+        <div class="heading">
+            <h1>Invoice Generator</h1>
+            
+        </div>
+        <div id="view-product">
+            
+            
+        </div>
+        
+        <div class="login-top-div" id="loginContainer">
+            <!-- JavaScript will dynamically add login/signup/logout buttons here -->
+        </div>
+    </nav>
+
+    <div id="loginError">
+        
+    </div>
+    <div class="container">
+        <h1>Add Product</h1>
+        <form id="productForm">
+            <div class="form-group">
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" name="companyName" required>
+            </div>
+            <div class="form-group">
+                <label for="companyAddress">Company Address:</label>
+                <input type="text" id="companyAddress" name="companyAddress" required>
+            </div>
+            <div class="form-group">
+                <label for="customerName">Customer Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+            </div>
+            <div class="form-group">
+                <label for="customerAddress">Customer Address:</label>
+                <input type="text" id="customerAddress" name="customerAddress" required>
+            </div>
+
+            <h2>Invoice Items</h2>
+            <div id="invoiceItems">
+                <!-- Dynamic fields will be added here -->
+            </div>
+            <button type="button" id="addItemBtn">Add Item</button>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

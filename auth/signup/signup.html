@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeInvoice - Login & Signup</title>
+    <link rel="stylesheet" href="../auth.css">
+</head>
+<body>
+    <nav id="nav" class="navbar">
+        <div class="heading">
+            <h1>Invoice Generator</h1>
+        </div>
+        
+        <div id="view-product">
+            <button onclick="HomePage()">Home</button>
+        </div>
+        
+        <div class="login-top-div" id="loginContainer">
+            <!-- JavaScript will dynamically add login/signup/logout buttons here -->
+        </div>
+
+        
+    </nav>
+
+    <div id="loginError">
+        
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupEmail">Email:</label>
+                    <input type="email" id="signupEmail" name="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" name="signupPassword" required>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
