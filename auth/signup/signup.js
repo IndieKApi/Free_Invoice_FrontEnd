@@ -164,7 +164,7 @@ function AddInvoice()
 
 function HomePage()
 {
-    window.location.href  = "../../docs/index.html";
+    window.location.href  = "../../index.html";
 }
 
 

@@ -83,7 +83,7 @@ function logout() {
 
 function gotoHomePage()
 {
-    window.location.href = "../../docs/index.html"
+    window.location.href = "../../index.html"
 }
 
 function ViewAllInvoice(){

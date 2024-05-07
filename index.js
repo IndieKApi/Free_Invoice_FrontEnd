@@ -86,7 +86,7 @@ function goToLoginPage() {
 
 function goToSignupPage() {
     
-    window.location.href = "../auth/signup/signup.html";
+    window.location.href = "auth/signup/signup.html";
 }
 
 
