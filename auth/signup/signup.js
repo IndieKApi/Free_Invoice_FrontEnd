@@ -33,7 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 errorElement.textContent = responseData.message;
                 errorElement.style.display = 'block';
-
+                
+                goToLoginPage();
                 
 
             }
