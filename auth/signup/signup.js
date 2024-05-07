@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
 
         try{
-            const respose  = await fetch("http://localhost:3000/signup",{
+            const respose  = await fetch("https://free-invoice.onrender.com/signup",{
                 method: "post",
                 headers: {
                     'Content-Type': 'application/json'
