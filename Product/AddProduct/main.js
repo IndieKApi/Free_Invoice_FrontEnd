@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     try{
-        const response = await fetch('http://localhost:3000/invoice/postinvoicedata', {
+        const response = await fetch('https://free-invoice.onrender.com/invoice/postinvoicedata', {
 
             method: 'post',
             headers: {
